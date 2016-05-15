@@ -1,6 +1,6 @@
-# NBA-Python-Web-Crawler
+# NBA-Python-Web-Scraper
 
-This web-crawler crawls through the CBS Sports page and scrapes specific data relevant to the NBA games played that night. This data is then emailed to a user. 
+This web-scraper scrapes the CBS Sports page and extracts specific data relevant to the NBA games played that night. This data is then organized in a readable way and then emailed to a user. 
 By setting up a scheduled task (Windows), this script can be ran daily. 
 
 ###Motivation:
@@ -17,7 +17,7 @@ Follow the steps below if you want to run this for yourself
 - Set up a scheduled task in Windows to run the script daily (would recommend setting it at night, ~2am when all games are done)
 
 ###Future Implementation:
- - Refactor crawler into a class that can scrape data from multiple pages for multiple sports throughout the year
+ - Refactor scraper into a class that can scrape data from multiple pages for multiple sports throughout the year
  - Based on time of year calls different functions correlating to sports leagues active at the time
  - Use a texting API to send text updates instead of emails
 
